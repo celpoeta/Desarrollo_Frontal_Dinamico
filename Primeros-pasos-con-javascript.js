@@ -16,7 +16,7 @@ let idDeZapatos = '12345'
 // ----------------------------------------------
 // TEMA 1: Tipos de datos primitivos
 // ----------------------------------------------
-let nombre = 'Caled'; // String
+let nombre = 'Caled Flores'; // String
 let edad = 25; // Number
 let precio = 19.99; // Number (decimal)
 let activo = false; // Boolean
@@ -147,3 +147,8 @@ console.log("\nType casting explicito:")
 let edadString = "25"
 let sumaDeEdadComoNumero = Number(edadString) + 25; // 25 + 25
 console.log("Suma de edades (string convertido a number):", sumaDeEdadComoNumero)
+
+let nombreSplit = nombre.split(' ') // ["Caled", "Flores"]
+console.log("Nombre dividido en partes:", nombreSplit);
+console.log("Primer nombre:", nombreSplit[0]);
+console.log("Primer apellido:", nombreSplit[1]);

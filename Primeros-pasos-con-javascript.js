@@ -61,7 +61,12 @@ let persona = {
     nombre: 'Caled',
     edad: 25,
     esEstudiante: false,
-    pais: 'Honduras'
+    pais: 'Honduras',
+    adrress: {
+        calle: '123 Calle Principal',
+        ciudad: 'Tegucigalpa',
+        pais: 'Honduras'
+    }
 };
 
 let misColoresFavoritos = ["Negro", "Morado", "Blanco"];

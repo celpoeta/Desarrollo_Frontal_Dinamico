@@ -1,0 +1,68 @@
+[
+    {
+        "titulo": "Brochas profesionales",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 40,
+        "cantidad": 10,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/brochas.jpg",
+        "altImagen": "Brochas profesionales",
+        "srcsetImagen": "./img/tienda_en_linea/productos/brochas-v-350.jpg 360w, ./img/tienda_en_linea/productos/brochas.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    },
+    {
+        "titulo": "lipstick rojo",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 100,
+        "cantidad": 50,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/labial.jpg",
+        "altImagen": "lipstick rojo",
+        "srcsetImagen": "./img/tienda_en_linea/productos/labial-350.jpg 360w, ./img/tienda_en_linea/productos/labial.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    },
+    {
+        "titulo": "Set de maquillajes",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 250,
+        "cantidad": 20,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/labial.jpg",
+        "altImagen": "Set de maquillaje",
+        "srcsetImagen": "./img/tienda_en_linea/productos/labial-350.jpg 360w, ./img/tienda_en_linea/productos/labial.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    },
+    {
+        "titulo": "Set de maquillajes",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 250,
+        "cantidad": 20,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/labial.jpg",
+        "altImagen": "Set de maquillaje",
+        "srcsetImagen": "./img/tienda_en_linea/productos/labial-350.jpg 360w, ./img/tienda_en_linea/productos/labial.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    },
+    {
+        "titulo": "Set de maquillajes",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 250,
+        "cantidad": 20,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/labial.jpg",
+        "altImagen": "Set de maquillaje",
+        "srcsetImagen": "./img/tienda_en_linea/productos/labial-350.jpg 360w, ./img/tienda_en_linea/productos/labial.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    },
+    {
+        "titulo": "Set de maquillajes",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 250,
+        "cantidad": 20,
+        "enlace": "./brochas.html",
+        "imagen": "./img/tienda_en_linea/productos/labial.jpg",
+        "altImagen": "Set de maquillaje",
+        "srcsetImagen": "./img/tienda_en_linea/productos/labial-350.jpg 360w, ./img/tienda_en_linea/productos/labial.jpg 600w",
+        "sizesImagen": "(max-width: 640px) 100vw, 640px"
+    }
+]

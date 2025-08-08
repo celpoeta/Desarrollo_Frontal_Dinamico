@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/tienda_en_linea/Icon-circle.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400;600;700;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+            rel="stylesheet">
+        <title>Image</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="/">
+                <figure>
+                    <img src="./img/tienda_en_linea/logo-bissu-c.png"
+                        alt="Logo Bissu">
+                </figure>
+            </a>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Brochas</a>
+                <a href="#">Lapiz Labial</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Compras en linea mi maquillaje</h1>
+                <p class="parrafo-bienvenida">Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Repellendus quod
+                    velit soluta facere labore
+                    porro quia neque nobis ducimus nam ipsa corporis, eligendi
+                    exercitationem pariatur repudiandae iste
+                    sequi consequuntur <b>fuga!</b></p>
+            </section>
+            <section>
+                <h2>Productos destacados</h2>
+                <!-- 
+                    Contenedor general donde se insertarán dinámicamente los productos 
+                    al momento de ejecutar el código JavaScript (app.js). 
+                    El ID "contenedor-productos" se usa en JS para ubicar este contenedor.
+                    -->
+                <div class="contenedor-productos" id="contenedor-productos">
+
+                    <!-- 
+                        Template HTML que define la estructura de cada producto.
+                        No se muestra directamente en la página; JavaScript lo clonará 
+                        y llenará con la información de cada producto del archivo JSON.
+                        -->
+                    <template id="producto-template">
+
+                        <!-- 
+                            Cada producto se representa con un <article>.
+                            Esto permite que cada elemento sea independiente 
+                            y semánticamente correcto en HTML.
+                            -->
+                        <article class="producto">
+
+                            <!-- Contenedor de la imagen del producto -->
+                            <figure>
+                                <!-- 
+                                    Imagen del producto. 
+                                    El atributo "class" es usado por JS para identificarlo y asignar:
+                                    - src: ruta de la imagen
+                                    - alt: texto alternativo
+                                    - srcset: versiones de imagen para diferentes resoluciones
+                                    - sizes: tamaños de imagen adaptativos
+                                    -->
+                                <img class="producto-img" src alt srcset sizes>
+                            </figure>
+
+                            <!-- Contenedor con la información del producto -->
+                            <div class="producto-informacion">
+
+                                <!-- Nombre del producto -->
+                                <h3 class="producto-titulo"></h3>
+
+                                <!-- Descripción breve del producto -->
+                                <p class="producto-descripcion"></p>
+
+                                <!-- Precio del producto -->
+                                <p class="producto-precio"></p>
+
+                                <!-- Cantidad disponible -->
+                                <span class="producto-cantidad"></span><br>
+
+                                <!-- Enlace para ver más detalles del producto -->
+                                <a class="producto-enlace" href>Ver más</a>
+
+                                <!-- Botón para agregar el producto al carrito -->
+                                <button>Agregar al carrito</button>
+                            </div>
+                        </article>
+                    </template>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <a href="#">Conoce más</a>
+                <a href="#">Nuestros productos</a>
+                <a href="#">Lapiz Labial</a>
+            </nav>
+            <p>hecho por unitec ❤️</p>
+        </footer>
+        <script src="./productos.js"></script>
+    </body>
+
+</html>

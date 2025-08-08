@@ -1,0 +1,24 @@
+{
+    "nombre": "Martin Castellanos",
+    "pais": "Honduras",
+    "rol": "Desarrollador Web",
+    "descripcion": "Desarrollador web con experiencia en JavaScript, HTML y CSS. Apasionado por crear aplicaciones web interactivas y eficientes.",
+    "foto": "./img/martin_cast_dev.JPG",
+    "redes": [
+        {
+            "nombre": "Facebook",
+            "url": "https://www.facebook.com/martin.castellanos",
+            "icono": "./img/social_img/Outlined/Outlined Facebook96.png"
+        },
+        {
+            "nombre": "X",
+            "url": "https://x.com/martin-castellanos",
+            "icono": "./img/social_img/Outlined/Outlined X96.png"
+        },
+        {
+            "nombre": "Instagram",
+            "url": "https://www.instagram.com/martin.castellanos",
+            "icono": "./img/social_img/Outlined/Outlined Insta96.png"
+        }
+    ]
+}

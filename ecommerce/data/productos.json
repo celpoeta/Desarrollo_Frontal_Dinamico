@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "nombre": "Round Shelf",
+        "precio": 35.00,
+        "imagen": "img/productos/p1.png",
+        "alt": "Round Shelf",
+        "descripcion": "Con su diseño circular, este estante combina practicidad y estilo.",
+        "galeria": [
+            "img/productos/p1.png",
+            "img/productos/p1_2.png"
+        ],
+        "detalleUrl": "#product-detail",
+        "iconoCarrito": "img/iconos/bt_add_to_cart.svg",
+        "altIconoCarrito": "View details"
+    },
+    {
+        "id": 2,
+        "nombre": "Retro Refrigerator",
+        "precio": 120.00,
+        "imagen": "img/productos/p2.png",
+        "alt": "Retro Refrigerator",
+        "detalleUrl": "#product-detail2",
+        "iconoCarrito": "img/iconos/bt_added_to_cart.svg",
+        "altIconoCarrito": "Add to cart"
+    },
+    {
+        "id": 3,
+        "nombre": "Round Shelf",
+        "precio": 50.00,
+        "imagen": "img/productos/p1.png",
+        "alt": "Round Shelf",
+        "detalleUrl": "#product-detail",
+        "iconoCarrito": "img/iconos/bt_add_to_cart.svg",
+        "altIconoCarrito": "View details"
+    },
+    {
+        "id": 4,
+        "nombre": "Retro Refrigerator",
+        "precio": 120.00,
+        "imagen": "img/productos/p2.png",
+        "alt": "Retro Refrigerator",
+        "detalleUrl": "#product-detail2",
+        "iconoCarrito": "img/iconos/bt_added_to_cart.svg",
+        "altIconoCarrito": "Add to cart"
+    },
+    {
+        "id": 5,
+        "nombre": "Round Shelf",
+        "precio": 35.00,
+        "imagen": "img/productos/p1.png",
+        "alt": "Round Shelf",
+        "detalleUrl": "#product-detail",
+        "iconoCarrito": "img/iconos/bt_add_to_cart.svg",
+        "altIconoCarrito": "View details"
+    },
+    {
+        "id": 6,
+        "nombre": "Retro Refrigerator",
+        "precio": 120.00,
+        "imagen": "img/productos/p2.png",
+        "alt": "Retro Refrigerator",
+        "detalleUrl": "#product-detail2",
+        "iconoCarrito": "img/iconos/bt_added_to_cart.svg",
+        "altIconoCarrito": "Add to cart"
+    },
+    {
+        "id": 7,
+        "nombre": "Round Shelf",
+        "precio": 35.00,
+        "imagen": "img/productos/p1.png",
+        "alt": "Round Shelf",
+        "detalleUrl": "#product-detail",
+        "iconoCarrito": "img/iconos/bt_add_to_cart.svg",
+        "altIconoCarrito": "View details"
+    },
+    {
+        "id": 8,
+        "nombre": "Retro Refrigerator",
+        "precio": 120.00,
+        "imagen": "img/productos/p2.png",
+        "alt": "Retro Refrigerator",
+        "detalleUrl": "#product-detail2",
+        "iconoCarrito": "img/iconos/bt_added_to_cart.svg",
+        "altIconoCarrito": "Add to cart"
+    },
+    {
+        "id": 7,
+        "nombre": "Round Shelf",
+        "precio": 35.00,
+        "imagen": "img/productos/p1.png",
+        "alt": "Round Shelf",
+        "detalleUrl": "#product-detail",
+        "iconoCarrito": "img/iconos/bt_add_to_cart.svg",
+        "altIconoCarrito": "View details"
+    }
+]

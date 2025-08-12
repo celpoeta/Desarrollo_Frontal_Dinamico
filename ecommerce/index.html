@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yard Sale - Login</title>
+        <link rel="icon" href="img/logos/favicon_yard_sale.svg"
+            type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#">
+                <div class="logo">
+                    <figure>
+                        <img src="img/logos/logo_yard_sale.svg" alt>
+                    </figure>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="#">All</a>
+                <a href="#">Clothes</a>
+                <a href="#">Electronics</a>
+                <a href="#" class="active">Furniture</a>
+                <a href="#">Toys</a>
+                <a href="#">Others</a>
+            </nav>
+            <nav class="right-links">
+
+                <a href="#user-menu" id="user">camilayokoo@gmail.com</a>
+
+                <a href="#user-menu" class="user-icon">
+                    <figure>
+                        <img src="img/iconos/flecha2.png"
+                            alt="Toggle menu">
+                    </figure>
+                </a>
+
+                <a href="#shopping-cart" class="carrito">
+                    <figure>
+                        <img
+                            src="img/iconos/icon_shopping_cart_notification.svg"
+                            alt>
+                    </figure>
+                </a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="search-bar">
+                <input type="text" placeholder="Search product" />
+                <span class="order"><b>Order:</b> Most Recent</span>
+            </section>
+
+            <section class="product-grid" id="contenedor-productos">
+                <!-- Aquí se inyectarán los productos -->
+            </section>
+
+            <section id="detalle-producto">
+                <!-- Aquí se inyectarán los productos -->
+            </section>
+
+        </main>
+
+        <!-- Template del producto -->
+        <template id="template-producto">
+            <article class="product-card">
+                <a class="detalle-link" href="#">
+                    <figure>
+                        <img class="imagen-producto" src alt>
+                    </figure>
+                </a>
+                <div class="info-card">
+                    <p class="price"></p>
+                    <p class="title"></p>
+                </div>
+                <a class="add-cart" href="#">
+                    <figure>
+                        <img class="icono-carrito" src alt>
+                    </figure>
+                </a>
+            </article>
+        </template>
+
+        <!-- Template del detalle del producto -->
+        <template id="template-detalle-producto">
+            <aside class="product-detail">
+                <a href="#" class="close-btn" aria-label="Cerrar">×</a>
+                <figure>
+                    <img class="detalle-img" src alt>
+                </figure>
+                <div class="slider-dots"></div>
+                <div class="product-info">
+                    <p class="price"></p>
+                    <p class="title"></p>
+                    <p class="description"></p>
+                    <a href="#shopping-cart" class="boton">
+                        <img src="img/iconos/white-_icon_shopping_cart.svg"
+                            alt="Add to cart">
+                        Add to cart
+                    </a>
+                </div>
+            </aside>
+        </template>
+
+        <aside id="shopping-cart" class="shopping-cart">
+            <section class="aside-header">
+                <a href>
+                    <figure>
+                        <img src="img/iconos/back.png" alt>
+                    </figure>
+                </a>
+                <h2>Shopping cart</h2>
+            </section>
+
+            <ul class="cart-items">
+
+                <li class="cart-item">
+                    <figure>
+                        <img src="img/productos/p1.png" alt="Round shelf" />
+                    </figure>
+                    <div class="item-info">
+                        <p class="title">Round shelf</p>
+                        <p class="price">$ 35,00</p>
+                    </div>
+                    <a href="#" class="remove-btn">×</a>
+                </li>
+                <li class="cart-item">
+                    <figure>
+                        <img src="img/productos/p2.png" alt="Round shelf" />
+                    </figure>
+                    <div class="item-info">
+                        <p class="title">Retro Refrigerator</p>
+                        <p class="price2">$ 120,00</p>
+                    </div>
+                    <a href="#" class="remove-btn">×</a>
+                </li>
+                <li class="cart-item">
+                    <figure>
+                        <img src="img/productos/p1.png" alt="Round shelf" />
+                    </figure>
+                    <div class="item-info">
+                        <p class="title">Round shelf</p>
+                        <p class="price">$ 35,00</p>
+                    </div>
+                    <a href="#" class="remove-btn">×</a>
+                </li>
+                <li class="cart-item">
+                    <figure>
+                        <img src="img/productos/p2.png" alt="Round shelf" />
+                    </figure>
+                    <div class="item-info">
+                        <p class="title">Retro Refrigerator</p>
+                        <p class="price2">$ 120,00</p>
+                    </div>
+                    <a href="#" class="remove-btn">×</a>
+                </li>
+            </ul>
+
+            <div class="cart-total">
+                <p>Total</p>
+                <p class="total-price">$ 560.00</p>
+            </div>
+
+            <a href="#" class="boton">Checkout</a>
+        </aside>
+
+        <!-- <article class="product-card">
+                    <a href="#product-detail">
+                        <figure>
+                            <img src="img/productos/p1.png" alt="Round Shelf" />
+                        </figure>
+                    </a>
+                    <div class="info-card">
+                        <p class="price">$ 35,00</p>
+                        <p class="title">Round shelf</p>
+                    </div>
+                    <a href="#shopping-cart" class="add-cart">
+                        <figure>
+                            <img src="img/iconos/bt_add_to_cart.svg"
+                                alt="View details" />
+                        </figure>
+                    </a>
+                </article> -->
+
+        <!-- <aside id="product-detail" class="product-detail">
+            <a href="#" class="close-btn">×</a>
+            <figure>
+                <img src="img/productos/p1.png" alt="Retro refrigerator" />
+            </figure>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <div class="product-info">
+                <p class="price">$ 35,00</p>
+                <p class="title">Round Shelf</p>
+                <p class="description">
+                    With its smooth circular design, this round shelf combines
+                    practicality with charm, serving as both
+                    storage and a stylish accent in your home, office, or
+                    creative space.
+
+                </p>
+                <a href="#shopping-cart" class="boton"><img
+                        src="img/iconos/white-_icon_shopping_cart.svg"
+                        alt>Add
+                    to cart</a>
+            </div>
+        </aside> -->
+
+        <!-- <aside id="product-detail2" class="product-detail">
+            <a href="#" class="close-btn">×</a>
+            <figure>
+                <img src="img/productos/p2.png" alt="Retro refrigerator" />
+            </figure>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="product-info">
+                <p class="price">$ 120,00</p>
+                <p class="title">Retro Refrigerator</p>
+                <p class="description">
+                    With its functional and practical interior, this
+                    refrigerator also fulfills a decorative function,
+                    adding personality and a retro-vintage aesthetic to your
+                    kitchen or workplace.
+                </p>
+                <a href="#shopping-cart" class="boton">
+                    <figure><img
+                            src="img/iconos/white-_icon_shopping_cart.svg"
+                            alt></figure>Add to cart
+                </a>
+            </div>
+        </aside> -->
+
+        <script src="./js/app.js"></script>
+    </body>
+
+</html>

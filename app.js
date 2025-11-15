@@ -6,7 +6,7 @@ const boton = document.getElementById("boton");
 const parrafo = document.getElementById("parrafo");
 
 // Cambiamos el texto del título al cargar el script
-titulo.textContent = "Hola mundo desde JavaScript";
+titulo.textContent = "Hola mundo desde JavaScript + netlify!";
 
 // Agregamos un evento al botón para cambiar el contenido cuando se hace clic
 boton.addEventListener("click", () => {
